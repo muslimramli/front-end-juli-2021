@@ -1,0 +1,81 @@
+body {
+    background-color: salmon;
+}
+.container {
+    width: 1000px;
+    height: 500px;
+    background-color: cadetblue;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container-kiri {
+    width: 500px;
+    background-color: sandybrown;
+    height: 500px;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.container-kanan {
+    padding: 50px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.title-left{
+    color: black;
+}
+
+.title-right {
+    color: blanchedalmond;
+}
+
+.select-1 {
+    width: 400px;
+    margin-top: 15px;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: sandybrown ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.input-1 {
+    width: 170px;
+    margin-top: 15px;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: sandybrown ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+
+}
+
+.input-2 {
+    margin-left: 25px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:white;
+    opacity: 1; /* Firefox */
+  }
+  
+  .company {
+      width: 390px;
+  }
+
+.employees {
+    width: 185px;
+    margin-left: 25px ;
+
+}
